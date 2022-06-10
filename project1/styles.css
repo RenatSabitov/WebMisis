@@ -1,100 +1,51 @@
-/*Прижатие футера*/
-* {
-    margin: 0;
-    padding: 0;
-}
+<!DOCTYPE html>
+<html lang="en">
 
-html,
-body {
-    height: 100%;
-}
+<head>
+    <meta charset="UTF-8">
+    <title>butterfly</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
 
-.wrapper {
-    display: flex;
-    flex-direction: column;
-    min-height: 100%;
-}
+<body>
+    <div class="wrapper">
+        <div class="content">
+            <div class="menu">
+                <ul>
+                    <a href="index.html">
+                        <li>Главная</li>
+                    </a>
+                    <a href="">
+                        <li>Каталог</li>
+                    </a>
+                    <a href="registration.html">
+                        <li>Регистрация</li>
+                    </a>
+                </ul>
+                <hr>
+            </div>
 
-.content {
-    flex: 1 0 auto;
-}
+            <div class="content_page">
+                <h2>Регистрация на сайте</h2>
+                <form action="#">
+                    Фамилия<input id="name" type="text">
+                    Имя<input id="name" type="text">
+                    Логин<input type="text">
+                    Пароль<input id="password" type="password">
+                    Почта<input type="email">
+                    <input class="button" type="submit">
+                    <input class="button" type="reset">
+                </form>
+            </div>
 
-.footer {
-    flex: 0 0 auto;
-}
-h1 {
-    display: flex;
-    justify-content: space-around;
-    height: 50px;
-}
-h2 {
-    color: aqua
-}
+            
+        </div>
 
-footer {
-    display: flex;
-    justify-content: space-around;
-    height: 50px;
-} 
-}
+        <footer>
+            Все права защищены
+        </footer>
+    </div>
+    <script src="script.js"></script>
+</body>
 
-div {
-    color: darkblue
-}
-
-.menu ul {
-    display: flex;
-    justify-content: space-around;
-    height: 100px;
-}
-
-.menu a li {
-    list-style: none;
-}
-
-.menu a {
-    text-decoration: none
-}
-
-.menu a:hover {
-    color: forestgreen;
-    font-size: 20px;
-}
-
-input {
-    border: 1px solid #356EAD;
-    box-sizing: border-box;
-    border-radius: 10px;
-    opacity: 0.4;
-    width: 250px;
-    height: 30px;
-    margin: 10px;
-    15px;
-    10px;
-    15px;
-}
-
-.button {
-    background: cornflowerblue;
-    box-shadow: 5px 20px 50px rgba(16, 112, 177, 0.2);
-    border-radius: 10px;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 26px;
-    text-align: center;
-    color: #FFFFFF;
-    text-transform: uppercase
-}
-
-.button:hover {
-    background: blue;
-}
-
-.button:active {
-    background: red;
-}
-
-.content_page form {
-    display: flex;
-    flex-direction: column;
-}
+</html>                          
