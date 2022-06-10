@@ -22,34 +22,24 @@ body {
 .footer {
     flex: 0 0 auto;
 }
-
-body {
-    font-family: arial;
-    Verdana,
-    sans-serif;
+h1 {
+    display: flex;
+    justify-content: space-around;
+    height: 50px;
 }
-
 h2 {
     color: aqua
 }
 
+footer {
+    display: flex;
+    justify-content: space-around;
+    height: 50px;
+} 
+}
+
 div {
     color: darkblue
-}
-
-.wrapper {
-    display;
-    flex;
-    flex-direction: column;
-    min-height: 100%;
-}
-
-.content {
-    flex: 1 0 auto;
-}
-
-.footer {
-    flex: 0 0 auto;
 }
 
 .menu ul {

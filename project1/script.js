@@ -1,4 +1,4 @@
-alert("Привет, я JS");
+alert("Привет, чтобы что-то купить пройди регистрацию");
 
 function gameGuess() {
     var guessNum = 5;
